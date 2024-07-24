@@ -1,0 +1,8 @@
+.btnsmall{
+    border: none;
+    width: 100px;
+    margin: auto;
+    background-color: wheat;
+    color: black;
+    outline: none;
+}

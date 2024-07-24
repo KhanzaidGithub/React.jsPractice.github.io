@@ -1,0 +1,49 @@
+.state{
+    border: 1px solid black;
+    width: 500px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.state h1{
+    color: black;
+    font-size: 34px;
+    text-align: center;
+}
+.state p{
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    font-family: arial,sans-serif;
+}
+.input{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.input input{
+    margin:10px 0px ;
+    padding: 8px 10px;
+    font-size: 16px;
+    color: black;
+    outline: none;
+    border: 1px solid #ccc;
+}
+
+.span{
+    color: red;
+}
+.eventBtn-01{
+    border: 1px solid black;
+    width:200px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.eventBtn-01 Button{
+    padding: 20px 26px;
+    color:black;
+    font-size: 18px;
+}
