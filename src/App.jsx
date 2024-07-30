@@ -12,7 +12,7 @@ import USeeffect from './component/useEffectState'
 // Chaper-02
 import Respondevent from './component/Addign Interactivity/respondingToEvent'
 import Toolbar from './component/Addign Interactivity/event02';
-
+// import Home from './component/gemini';
 const App = () => {
   return (
     <div>
@@ -30,6 +30,7 @@ const App = () => {
       {/* Chapter Change */}
       <Respondevent />
       <Toolbar />
+      {/* <Home/> */}
     </div>
   );
 }
