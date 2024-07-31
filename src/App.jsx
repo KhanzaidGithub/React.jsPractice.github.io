@@ -13,6 +13,7 @@ import USeeffect from './component/useEffectState'
 import Respondevent from './component/Addign Interactivity/respondingToEvent'
 import Toolbar from './component/Addign Interactivity/event02';
 // import Home from './component/gemini';
+import Todolist from './component/todolist';
 const App = () => {
   return (
     <div>
@@ -31,6 +32,7 @@ const App = () => {
       <Respondevent />
       <Toolbar />
       {/* <Home/> */}
+      <Todolist/>
     </div>
   );
 }
