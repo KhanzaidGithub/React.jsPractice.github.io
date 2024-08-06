@@ -1,28 +1,37 @@
-.state{
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.state {
     border: 1px solid black;
     width: 500px;
     margin: auto;
     margin-bottom: 20px;
 }
-.state h1{
+
+.state h1 {
     color: black;
     font-size: 34px;
     text-align: center;
 }
-.state p{
+
+.state p {
     color: black;
     font-size: 20px;
     text-align: center;
-    font-family: arial,sans-serif;
+    font-family: arial, sans-serif;
 }
-.input{
+
+.input {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
 }
-.input input{
-    margin:10px 0px ;
+
+.input input {
+    margin: 10px 0px;
     padding: 8px 10px;
     font-size: 16px;
     color: black;
@@ -30,20 +39,41 @@
     border: 1px solid #ccc;
 }
 
-.span{
+.span {
     color: red;
 }
-.eventBtn-01{
+
+.eventBtn-01 {
     border: 1px solid black;
-    width:200px;
+    width: 200px;
     margin: auto;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    align-items: centnpm i @google/generative-aier;
 }
-.eventBtn-01 Button{
+
+.eventBtn-01 Button {
     padding: 20px 26px;
-    color:black;
+    color: black;
     font-size: 18px;
+}
+
+/* this is for navbar styling */
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: skyblue;
+}
+
+li {
+    list-style: none;
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+.item {
+    color: black;
+    text-decoration: none;
 }
