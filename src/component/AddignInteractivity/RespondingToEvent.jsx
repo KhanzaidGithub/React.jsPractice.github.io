@@ -1,6 +1,6 @@
 import React from 'react'
 import { Button } from 'antd'
-const RespondingEvent = () => {
+const RespondingToEvent = () => {
     let btnevent = () => {
         alert('Testing Event on Button')
     }
@@ -13,4 +13,4 @@ const RespondingEvent = () => {
     )
 }
 
-export default RespondingEvent
+export default RespondingToEvent

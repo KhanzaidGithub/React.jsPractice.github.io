@@ -4,15 +4,11 @@ import { DatePicker,Button } from 'antd';
 
 const Antdesign = () => {
     return <DatePicker />;
+    <Button type='primary'>{props.name}</Button>
 };
 
 export default Antdesign;
 
 
-export const Antbtn02 =(props)=>{
-    return(
-        <Button type='primary'>{props.name}</Button>
-    )
-}
 
 

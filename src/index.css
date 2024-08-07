@@ -60,14 +60,14 @@
 
 /* this is for navbar styling */
 
-ul {
+.ul {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: skyblue;
 }
 
-li {
+.ul li {
     list-style: none;
     margin-left: 15px;
     font-size: 20px;

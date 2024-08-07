@@ -7,8 +7,8 @@ function Event02({ message, children }) {
     )
 }
 
-function Toolbar(){
-    return(
+function Toolbar() {
+    return (
         <div className='eventBtn-01'>
             <h2>Event-02.jsx</h2>
             <Event02 message="Testing">Test Btn</Event02>

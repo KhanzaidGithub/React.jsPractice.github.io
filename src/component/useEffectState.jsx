@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-const StateTest = () => {
+const UseEffectState = () => {
     const [color, setColor] = useState('red');
 
     useEffect(() => {
@@ -16,4 +16,4 @@ const StateTest = () => {
     );
 };
 
-export default StateTest;
+export default UseEffectState;

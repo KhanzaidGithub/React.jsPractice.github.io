@@ -1,9 +1,13 @@
 import React from 'react'
-
+import CondStateRendering from '../component/CondStateRendering'
+import Newarray from '../component/Newarray'
+import States from '../component/States'
 const About = () => {
   return (
     <div>
-      <h1>this is about us</h1>
+        <CondStateRendering/>
+        <Newarray/>
+        <States/>
     </div>
   )
 }
