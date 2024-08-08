@@ -11,9 +11,9 @@ const Components = () => {
       <h1>This is components page</h1>
       <StateTest />
       <Todolist />
-      <StateUsingObj/>
-      <UseEffectState/>
-      <RespondingToEvent/>
+      <StateUsingObj />
+      <UseEffectState />
+      <RespondingToEvent />
     </div>
   )
 }
