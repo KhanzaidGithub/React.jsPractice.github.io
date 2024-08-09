@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import About from './pages/About'
 import Components from './pages/Components'
 import CompTasks from './pages/CompTaks'
+import Immer from "./pages/Immer";
 
 const App = () => {
   let router = createBrowserRouter([
@@ -23,6 +24,10 @@ const App = () => {
     {
       path: '/comptask',
       element: <><Navbar /> <CompTasks /></>
+    },
+    {
+      path: '/immer',
+      element: <><Navbar /> <Immer /></>
     }
   ])
 
