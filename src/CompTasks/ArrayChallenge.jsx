@@ -8,7 +8,7 @@ export default function List() {
       <p><b>{person.name}:</b>{' ' + person.profession + ' '}known for{person.accomplishment}</p>
     </li>);
 
-  const chemistList = people.filter(e => e === "chemist").map(item =>
+  const chemistList = people.filter(e => e.profession !== "chemist").map(item =>
     <li key={item.id}>
       <img src={getImageUrl(item)} alt={item.name} />
       <p><b>{item.name}</b>:{item.profession} known for {item.accomplishment}</p>
