@@ -8,6 +8,7 @@ const CompTaks = () => {
      <ArrayChallenge/>
      <Urltask/>
      <CarousalTask/>
+
     </div>
   )
 }
