@@ -6,6 +6,7 @@ import About from './pages/About'
 import Components from './pages/Components'
 import CompTasks from './pages/CompTaks'
 import Immer from "./pages/Immer";
+import Github from "./pages/Github";
 
 const App = () => {
   let router = createBrowserRouter([
@@ -28,6 +29,10 @@ const App = () => {
     {
       path: '/immer',
       element: <><Navbar /> <Immer /></>
+    },
+    {
+      path: '/github',
+      element: <><Navbar /> <Github /></>
     }
   ])
 

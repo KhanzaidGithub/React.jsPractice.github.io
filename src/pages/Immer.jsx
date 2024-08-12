@@ -3,6 +3,7 @@ import ImmerPractice from '../CompTasks/ImmerPractice'
 import Mutable from '../CompTasks/Mutable'
 import TodowithImmer from '../ImmerPractice/TodowithImmer'
 import Toogle from '../ImmerPractice/Toogle'
+import Card from '../cards/Card'
 const Immer = () => {
   return (
     <div>
@@ -10,6 +11,7 @@ const Immer = () => {
       <Mutable />
       <TodowithImmer />
       <Toogle />
+      <Card />
     </div>
   )
 }

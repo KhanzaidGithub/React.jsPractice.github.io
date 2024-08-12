@@ -3,6 +3,10 @@
     margin: 0px;
 }
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .state {
     border: 1px solid black;
     width: 500px;
@@ -76,4 +80,11 @@
 .item {
     color: black;
     text-decoration: none;
+}
+
+
+/* github api page */
+.mt-12{
+    margin-top: 30px;
+    color: red;
 }

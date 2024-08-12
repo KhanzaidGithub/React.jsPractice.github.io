@@ -10,10 +10,15 @@ const Todolist = () => {
         // if (inputValue.trim()) {
         //     setTodos([...todo, inputValue])
         // }
-        let data = [...todo]
-        data.push(inputValue);
-        setTodos(data)
-        setInputValue('')
+        if (inputValue.trim()) {
+            let data = [...todo]
+            data.push(inputValue);
+            setTodos(data)
+            setInputValue('')
+        }
+        else (
+            alert('Write To add in List')
+        )
     }
     // Input Value
     function inputfunc(e) {

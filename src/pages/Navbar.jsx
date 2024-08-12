@@ -14,6 +14,7 @@ const Navbar = () => {
                 <li><NavLink className="item" to='/components'>Components</NavLink></li>
                 <li><NavLink className="item" to='/comptask'>CompTaks</NavLink></li>
                 <li><NavLink className='item' to='/immer'>immer</NavLink></li>
+                <li><NavLink className='item' to='/github'>Github</NavLink></li>
             </ul>
         </div>
     )
