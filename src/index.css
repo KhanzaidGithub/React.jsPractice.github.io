@@ -88,3 +88,11 @@
     margin-top: 30px;
     color: red;
 }
+.score{
+    margin-top: 20px;
+    width: 450px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: auto;
+    margin-top: 20px;
+}

@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 
-
 const ObjectPractice2 = () => {
     const [person, setPerson] = useState({
         name: 'Niki de Saint Phalle',
