@@ -1,5 +1,5 @@
 import React from "react";
-import {RouterProvider, createBrowserRouter } from "react-router-dom";
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Navbar from "./pages/Navbar";
 import Home from "./pages/Home";
 import About from './pages/About'
@@ -8,6 +8,7 @@ import CompTasks from './pages/CompTaks'
 import Immer from "./pages/Immer";
 import Github from "./pages/Github";
 import Objects from "./pages/Objects";
+import Hooks from "./pages/Hooks";
 
 const App = () => {
   let router = createBrowserRouter([
@@ -38,6 +39,10 @@ const App = () => {
     {
       path: '/object',
       element: <><Navbar /><Objects /></>
+    },
+    {
+      path: '/hooks',
+      element: <><Navbar /><Hooks /></>
     }
   ])
 
