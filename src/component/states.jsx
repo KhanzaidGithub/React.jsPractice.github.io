@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 function States() {
-    const [color, setColor] = useState();
+    const [color, setColor] = useState('');
 
     return (
         <>
